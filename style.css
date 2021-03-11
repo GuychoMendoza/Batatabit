@@ -25,7 +25,7 @@
 html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
-    background-color: white;
+
 
 }
 header {
@@ -97,7 +97,7 @@ header img {
 main {
     width: 100%;
     height: auto;
-    background-color: var(--just-white);
+    background-color: white;
 }
 .main-exchange-container {
     width: 100%;
