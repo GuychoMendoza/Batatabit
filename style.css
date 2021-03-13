@@ -440,13 +440,22 @@ main {
     line-height: 1.8rem;
     color: #757575;
 }
+.plans-container--slider { /*scroll horizontal*/
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+
+}
 .plans-container--card {
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 20px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -520,17 +529,7 @@ main {
     border-radius: 8px;
     color: var(--just-white);
 }
-.plans-container--card-ultimo {
-    position: relative;
-    width: 70%;
-    min-width: 230px;
-    max-width: 300px;
-    height: 250px;
-    margin: 50px auto 0;
-    padding: 0 15px;
-    background-color: var(--warm-black);
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+
 }
 .plans-container--card-ultimo .plan-card--price{
     color: var(--just-white);
